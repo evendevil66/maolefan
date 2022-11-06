@@ -24,7 +24,7 @@
 
 ## 主要配置文件
 
-1、/config/config.php &nbsp;&nbsp;&nbsp;&nbsp; #本配置文件保存站点/平台基本信息、淘宝联盟和大淘客APPKEY等信息
+1、/config/config.php &nbsp;&nbsp;&nbsp;&nbsp; #本配置文件保存站点/平台基本信息、淘宝联盟和大淘客APPKEY等信息  
 2、.env &nbsp;&nbsp;&nbsp;&nbsp; #本配置文件保存数据库相关信息
 
 ## 已实现功能
