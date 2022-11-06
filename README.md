@@ -55,7 +55,9 @@ php artisan route:cache
 
 环境要求：PHP >= 8（支持PHP8） ｜ MySQL/MariaDB ｜ Redis
 
-注意：项目中使用的工具类SendSms.php使用的为华为云短信服务，如需使用短信功能，请自行修改SendSms.php中的相关配置。如不使用短信验证功能，请修改注册、找回密码等相关接口
+注意：项目中使用的工具类SendSms.php使用的为华为云短信服务，如需使用短信功能，请自行修改SendSms.php中的相关配置。如不使用短信验证功能，请修改注册、找回密码等相关接口  
+项目并非部署后直接可用，需要自行开发前端代码，API接口文档请参考：[API文档](https://console-docs.apipost.cn/preview/2f87880934dd513c/1fd38acf3b8ff15d)
+，API文档暂不完整，正在持续完善中
 
 下载或clone项目代码到所需环境
 
@@ -142,7 +144,7 @@ crontab -e
 #每个月1、10、19、28日1点10分执行对上月及上上月订单的信息修改及结算等（仅联盟结算日期为上月的才会被结算）
 ````
 
-至此，猫乐饭项目已经部署完成，请根据Api文档进行开发。
+至此，猫乐饭项目已经部署完成，请根据[Api文档](https://console-docs.apipost.cn/preview/2f87880934dd513c/1fd38acf3b8ff15d)进行开发。
 
 
 
